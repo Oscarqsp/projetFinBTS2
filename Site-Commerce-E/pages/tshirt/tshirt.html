@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Jeans</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../tshirt/tshirt.css" />
+    <style>
+
+        .zoom {
+            transition: transform 0.3s ease;
+        }
+
+        .zoom:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    <script>
+        window.onload = function() {
+
+            var images = document.querySelectorAll('.produits');
+
+            images.forEach(function(image) {
+                image.addEventListener('mouseover', function() {
+                    this.classList.add('zoom');
+                });
+
+                image.addEventListener('mouseout', function() {
+                    this.classList.remove('zoom');
+                });
+            });
+        };
+    </script>
+</head>
+<body>
+    <video autoplay muted loop id="video-bg">
+        <source src="../backgroundvideo/backgroundvideo.mp4" type="video/mp4">
+      </video>
+    <nav>
+    <header class="banniere">
+        <nav>
+            <div class="container">
+              <h1>XYZ</h1>
+              <ul>
+                <li><a href="../acceuil/acceuil.html">Accueil</a></li>
+                <li><a href="../jeans/jeans.html">Jeans</a></li>
+                <li><a href="../shoes/shoes.html">Shoes</a></li>
+                <li><a href="../tshirt/tshirt.html">T shirts</a></li>
+                <li><a href="../tshirt/tshirt1.html">contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </h1>
+    </header>
+    </nav>
+    <div class="grid-container">
+        <img class="produits" src=".//images/tshirt1.png">
+        <span class="prix"> 55 euros, Brand : Mellow Climbing.<p> <a href="../acceuil/acceuil.html">acheter</a><p></p>
+            <p>available sizes are : 
+            <span class="available"> S, M, L</span>
+            <span class="unavailable">XL</span>
+        </p>
+        </span>
+
+        <img class="produits" src=".//images/tshirt2.png">
+        <span class="prix"> 55 euros, Brand : Mellow Climbing.<p> <a href="../acceuil/acceuil.html">acheter</a><p></p>
+            <p>available sizes are : 
+            <span class="available"> S, M</span>
+            <span class="unavailable">L, XL</span>
+        </p>
+        </span>
+
+        <img class="produits" src=".//images/tshirt3.png">
+        <span class="prix"> 55 euros, Brand : Mellow Climbing.<p> <a href="../acceuil/acceuil.html">acheter</a><p>
+        </p><p>available sizes are : 
+            <span class="available"> S, M</span>
+            <span class="unavailable">L, XL</span>
+        </p>
+        </span>
+        <img class="produits" src=".//images/tshirt4.png">
+        <span class="prix"> 55 euros, Brand : Mellow Climbing.<p> <a href="../acceuil/acceuil.html">acheter</a><p>
+        </p><p>available sizes are : 
+            <span class="available">L</span>
+            <span class="unavailable">S, M, XL</span>
+        </p>
+        </span>
+
+        <img class="produits" src="../tshirt/images/tshirt5.png">
+        <span class="prix"> 55 euros, Brand : Mellow Climbing.<p> <a href="../acceuil/acceuil.html">acheter</a><p></p>
+            <p>available sizes are : 
+                <span class="available"> S, M, L</span>
+                <span class="unavailable">XL</span>
+            </p>
+        </span>
+
+        <img class="produits" src=".//images/tshirt6.png">
+        <span class="prix"> 55 euros, Brand : Mellow Climbing.<p> <a href="../acceuil/acceuil.html">acheter</a><p></p>
+            <p>available sizes are : 
+                <span class="available"> </span>
+                <span class="unavailable">S, M, L, XL</span>
+            </p>
+        </span>
+
+        <img class="produits" src=".//images/tshirt7.png">
+        <span class="prix"> 55 euros, Brand : Mellow Climbing<p> <a href="../acceuil/acceuil.html">acheter</a><p>
+            <p>available sizes are : 
+            <span class="available"> S</span>
+            <span class="unavailable">M, L, XL</span>
+        </p>
+        </span>
+
+        <img class="produits" src=".//images/tshirt8.png">
+        <span class="prix"> 55 euros, Brand : Mellow Climbing.<p> <a href="../acceuil/acceuil.html">acheter</a><p>
+        </p><p>available sizes are : 
+            <span class="available"> S, M, L</span>
+            <span class="unavailable">XL</span>
+        </p>
+        </span>
+    </div>
+    </div>
+
+</body>
+</html>
