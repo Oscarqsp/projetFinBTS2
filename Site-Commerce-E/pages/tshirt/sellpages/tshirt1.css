@@ -1,11 +1,12 @@
-body, html, span {
-  font-family:'MyFont';
+body,
+html,
+span {
+  font-family: "MyFont";
   margin: 0;
   padding: 0;
 }
 
 header {
-
   top: 0;
   left: 0;
   width: 100%;
@@ -23,28 +24,27 @@ header {
   align-items: center;
 }
 
-.tshirt{
+.tshirt {
   width: 40%;
   float: left;
   margin-left: 5%;
 }
 
-.item-title{
+.item-title {
   float: left;
   margin-left: 10%;
   margin-top: 5%;
-
 }
 
-.description{
+.description {
   float: left;
   margin-left: 10%;
   max-width: 25%;
 }
 
 @font-face {
-  font-family: 'MyFont';
-  src: url('/pages/font/MesloLGLDZ-Regular.ttf');
+  font-family: "MyFont";
+  src: url("/Site-Commerce-E/pages/font/MesloLGLDZ-Regular.ttf");
 }
 
 ul {
@@ -83,8 +83,6 @@ nav ul li a {
   max-height: 100%;
 }
 
-
-
 .prix {
   margin-top: 5px;
   text-align: center;
@@ -113,6 +111,8 @@ nav ul li a {
   background-size: cover;
 }
 
-.prix, .unavailable, .available{
+.prix,
+.unavailable,
+.available {
   margin-top: 50%;
 }

@@ -25,7 +25,7 @@ header {
 }
 
 .tshirt {
-  width: 40%;
+  width: 30%;
   float: left;
   margin-left: 5%;
 }
@@ -44,7 +44,7 @@ header {
 
 @font-face {
   font-family: "MyFont";
-  src: url("/pages/font/MesloLGLDZ-Regular.ttf");
+  src: url("/Site-Commerce-E/pages/font/MesloLGLDZ-Regular.ttf");
 }
 
 ul {
