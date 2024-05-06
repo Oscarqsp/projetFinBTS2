@@ -39,12 +39,12 @@ header {
 .description{
   float: left;
   margin-left: 10%;
-  max-width: 20%;
+  max-width: 25%;
 }
 
 @font-face {
   font-family: 'MyFont';
-  src: url('../font/MesloLGLDZ-Regular.ttf');
+  src: url('/pages/font/MesloLGLDZ-Regular.ttf');
 }
 
 ul {
